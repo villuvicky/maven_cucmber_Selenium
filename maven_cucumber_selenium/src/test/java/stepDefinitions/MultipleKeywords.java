@@ -17,10 +17,10 @@ public class MultipleKeywords {
 		    
 		}
 		
-		@When("User logged on to myAccess with Valid Username and Password:")
+		@When("User logged on to myAccess with Valid Username and Password")
 		public void user_logged_on_to_my_access_with_valid_username_and_password(io.cucumber.datatable.DataTable dataTable) {
 			List<Map<String, String>> creds=dataTable.asMaps(String.class, String.class);
-			String UserName=creds.get(0).get("Username");
+			String UserName=creds.get(1).get("Username");
 			System.out.println(UserName);
 		
 		}
