@@ -22,6 +22,4 @@ public class RegularExpression_def {
 			System.out.println("My name is "+string);
 		}
 
-
-
 }

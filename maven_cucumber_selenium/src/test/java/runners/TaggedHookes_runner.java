@@ -6,12 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "features", glue={"stepDefinitions","hooks"},tags = "@Thanos or @TaggedHooks")
+@CucumberOptions(features = "features", glue={"stepDefinitions","hooks"},tags = "@Thanos", plugin = "pretty")
 
 
 public class TaggedHookes_runner {
 
-		
 		}
 
 	

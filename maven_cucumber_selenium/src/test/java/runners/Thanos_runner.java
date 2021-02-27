@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "features/Thanos.feature", glue={"stepDefinitions","hooks"})
+@CucumberOptions(features = "features/Thanos.feature", glue={"stepDefinitions","hooks"},tags = "@Thanos",plugin ="pretty")
 public class Thanos_runner {
 
 }
