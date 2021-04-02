@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "features/MultipleKeywords.feature", glue="stepDefinitions",
+@CucumberOptions(features= "features/basic.feature", glue="stepDefinitions",
                   plugin = {"pretty"})
 
 public class CommonRunner {

@@ -1,13 +1,20 @@
 package stepDefinitions;
 
+
+import io.cucumber.java.BeforeStep;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Basic_def {
+
+
+	
 	@Given("user is entering google.com")
 	public void user_is_entering_google_com() {
 		System.out.println("User is on Google home");
+	
 	}
 
 	@When("user clicks the search box")
